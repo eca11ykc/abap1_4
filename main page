@@ -1,0 +1,14 @@
+*&---------------------------------------------------------------------*
+*& Report ZABAP1
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+report zabap1 message-id zmm01.
+
+include zabap1_top.
+include zabap1_sel.
+include zabap1_cls.
+include zabap1_f01. " perform
+include zabap1_f02. " Method
+include zabap1_o01.
+include zabap1_i01.
